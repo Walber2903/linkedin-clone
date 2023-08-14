@@ -1,20 +1,20 @@
 .feed {
   flex: 0.5;
-  margin: 0 1.25em;
+  margin: 0 1.25rem;
 }
 
 .feed__inputContainer {
   background-color: white;
   border-radius: 8px;
-  margin-bottom: 1.25em;
+  margin-bottom: 1.25rem;
 }
 
 .feed__input {
   display: flex;
-  padding-top: .625em;
-  padding-left: .625em;
-  padding-right: .625em;
-  align-items: flex-start;
+  padding-top: .625rem;
+  padding-left: .625rem;
+  padding-right: .625rem;
+  align-itrems: flex-start;
 }
 
 .feed__input > form {
@@ -27,11 +27,11 @@
   flex: 1;
   outline-width: 0;
   font-weight: 400;
-  height: 1.875em;
+  height: 1.875rem;
   border: 1px solid gray;
   border-radius: 30px;
-  padding: .25em;
-  padding-left: .625em;
+  padding: .25rem;
+  padding-left: .625rem;
   outline: none;
   height: 100%;
   background-color: white;
@@ -45,7 +45,7 @@
 }
 
 .feed_avatar {
-  margin-right: .625em;
+  margin-right: .625rem;
   object-fit: cover;
 }
 
@@ -60,21 +60,21 @@
 .feed_icons {
   display: flex;
   justify-content: space-between;
-  margin-top: .625em;
-  align-items: center;
+  margin-top: .625rem;
+  align-itrems: center;
   height: 100%;
 }
 
 .photo > p, .video > p, .event > p, .article > p {
   color: gray;
-  margin-left: .25em;
+  margin-left: .25rem;
 }
 
 .photo {
   display: flex;
   color: blue;
-  padding: .625em .625em 1.25em .625em;
-  align-items: center;
+  padding: .625rem .625rem 1.25rem .625rem;
+  align-itrems: center;
 }
 
 .photo:hover {
@@ -85,8 +85,8 @@
 .video {
   display: flex;
   color: green;
-  padding: .625em .625em 1.25em .625em;
-  align-items: center;
+  padding: .625rem .625rem 1.25rem .625rem;
+  align-itrems: center;
 }
 
 .video:hover {
@@ -97,8 +97,8 @@
 .event {
   display: flex;
   color: orange;
-  padding: .625em .625em 1.25em .625em;
-  align-items: center;
+  padding: .625rem .625rem 1.25rem .625rem;
+  align-itrems: center;
 }
 
 .event:hover {
@@ -109,8 +109,8 @@
 .article {
   display: flex;
   color: red;
-  padding: .625em .625em 1.25em .625em;
-  align-items: center;
+  padding: .625rem .625rem 1.25rem .625rem;
+  align-itrems: center;
 }
 
 .article:hover {

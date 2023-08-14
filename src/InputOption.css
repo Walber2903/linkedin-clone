@@ -1,8 +1,8 @@
 .inputOption {
   display: flex;
-  align-items: center;
+  align-itrems: center;
   color: gray;
-  padding: .625em;
+  padding: .625rem;
   cursor: pointer;
 }
 
@@ -12,6 +12,6 @@
 }
 
 .inputOption > h4 {
-  margin-left: .25em;
-  font-size: .75em;
+  margin-left: .25rem;
+  font-size: .75rem;
 }

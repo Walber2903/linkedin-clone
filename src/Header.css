@@ -5,11 +5,11 @@
   display: flex;
   justify-content: space-evenly;
   border-bottom: 0.1px solid lightgray;
-  padding: .625em 0;
+  padding: .625rem 0;
   width: 100%;
   z-index: 999;
   background-color: white;
-  height: 3.75em;
+  height: 3.75rem;
 }
 
 .header__left {
@@ -18,16 +18,16 @@
 
 .header__left > img {
   object-fit: contain;
-  height: 2.5em;
-  margin-right: .625em;
+  height: 2.5rem;
+  margin-right: .625rem;
 }
 
 .header__search {
-  padding: .625em;
+  padding: .625rem;
   display: flex;
-  align-items: center;
+  align-itrems: center;
   border-radius: 5px;
-  height: 2.5em;
+  height: 2.5rem;
   color: gray;
   background-color: #eef3f8;
 }

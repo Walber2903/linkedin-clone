@@ -1,37 +1,37 @@
 .post {
   background-color: white;
-  padding: 1em;
-  margin-bottom: .625em;
-  border-radius: .625em;
+  padding: 1rem;
+  margin-bottom: .625rem;
+  border-radius: .625rem;
 }
 
 .post__header {
   display: flex;
-  margin_bottom: .625em;
+  margin_bottom: .625rem;
 }
 
 .post__info {
-  margin-left: .625em;
+  margin-left: .625rem;
 }
 
 .post__info > p {
-  font_size: .5em;
+  font_size: .5rem;
   color: gray;
 }
 
 .post__body {
   overflow-wrap: anywhere;
-  margin-top: .75em;
+  margin-top: .75rem;
 }
 
 .post__info > h2 {
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .post__buttons {
   display: flex;
   border-top: solid 1px whitesmoke;
-  margin-top: .75em;
-  padding-top: .25em;
+  margin-top: .75rem;
+  padding-top: .25rem;
   justify-content: space-evenly;
 }
