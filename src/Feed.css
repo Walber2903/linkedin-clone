@@ -1,0 +1,114 @@
+.feed {
+  flex: 0.5;
+  margin: 0 20px;
+}
+
+.feed__inputContainer {
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.feed__input {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.feed_avatar {
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.form_input {
+  width: 90%
+}
+
+.form_input > button{
+  height: 30px; 
+  border: 1px solid gray;
+  border-radius: 30px;
+  padding: 5px;
+  padding-left: 10px;
+  outline: none;
+  height: 100%;
+  background-color: white;
+  color: gray;
+  width: 100%;
+  text-align: left;
+}
+
+.form_input > button:hover {
+  background-color: darkgray;
+}
+
+.feed_icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+  height: 100%;
+}
+
+.photo > p, .video > p, .event > p, .article > p {
+  color: gray;
+  margin-left: 4px;
+}
+
+.photo {
+  display: flex;
+  color: blue;
+  padding-top: 10px;
+  padding-left:10px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.photo:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.video {
+  display: flex;
+  color: green;
+  padding-top: 10px;
+  padding-left:10px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.video:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.event {
+  display: flex;
+  color: orange;
+  padding-top: 10px;
+  padding-left:10px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.event:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.article {
+  display: flex;
+  color: red;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-left:10px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.article:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}

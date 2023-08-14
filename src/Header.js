@@ -21,7 +21,7 @@ function Header() {
 
         <div className="header__search">
           <SearchIcon />
-          <input type="text" />
+          <input type="text" placeholder='Search'/>
         </div>
 
       </div>
@@ -32,7 +32,7 @@ function Header() {
         <HeaderOption Icon={BusinessCenterIcon} title='Jobs' />
         <HeaderOption Icon={ChatIcon} title='Messaging' />
         <HeaderOption Icon={NotificationsIcon} title='Notifications' />
-        <HeaderOption avatar='https://github.com/Walber2903.png' title='Me'/>
+        <HeaderOption avatar='https://github.com/Walber2903.png' title='Me' />
       </div>
     </div>
   )
