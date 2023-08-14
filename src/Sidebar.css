@@ -17,8 +17,8 @@
   align-items: center;
   border: 1px solid lightgray;
   border-bottom: 0;
-  border-top-left-radius: .625rem;
-  border-top-right-radius: .625rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   background-color: white;
   padding-bottom: .625rem;
 }
@@ -41,6 +41,7 @@
   color: gray;
   font-size: .75rem;
   font-weight: 400;
+  padding: 0 .25rem;
 }
 
 .sidebar__stats {
@@ -57,6 +58,7 @@
   margin-top: .625rem;
   display: flex;
   justify-content: space-between;
+  padding-right: .25rem;
 }
 
 .sidebar__stat > p {
