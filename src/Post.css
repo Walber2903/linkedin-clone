@@ -15,6 +15,23 @@
 }
 
 .post__info > p {
-  font_size: .75rem;
+  font_size: .5rem;
   color: gray;
+}
+
+.post__body {
+  overflow-wrap: anywhere;
+  margin-top: .75rem;
+}
+
+.post__info > h2 {
+  font-size: 1rem;
+}
+
+.post__buttons {
+  display: flex;
+  border-top: solid 1px whitesmoke;
+  margin-top: .75rem;
+  padding-top: .25rem;
+  justify-content: space-evenly;
 }

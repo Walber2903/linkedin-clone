@@ -16,6 +16,33 @@
   padding-right: .625rem;
 }
 
+.feed__input > form {
+  display: flex;
+  width: 100%;
+}
+
+.feed__input > form > input {
+  border: none;
+  flex: 1;
+  outline-width: 0;
+  font-weight: 400;
+  height: 1.875rem;
+  border: 1px solid gray;
+  border-radius: 30px;
+  padding: .25rem;
+  padding-left: .625rem;
+  outline: none;
+  height: 100%;
+  background-color: white;
+  color: gray;
+  width: 100%;
+  text-align: left;
+}
+
+.feed__input > form > button {
+  display: none;
+}
+
 .feed_avatar {
   margin-right: .625rem;
   object-fit: cover;
@@ -24,7 +51,7 @@
 .form_input {
   width: 90%
 }
-
+/* 
 .form_input > button{
   height: 1.875rem;
   border: 1px solid gray;
@@ -37,7 +64,7 @@
   color: gray;
   width: 100%;
   text-align: left;
-}
+} */
 
 .form_input > button:hover {
   background-color: darkgray;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Feed.css'
 import { Avatar } from '@mui/material';
 import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
@@ -8,13 +8,20 @@ import EditNoteIcon from '@mui/icons-material/EditNote';
 import Post from './Post';
 
 function Feed() {
+  const [posts, setPosts] = useState([]);
+
+  const sendPost = e => {
+    // e.preventDefault();
+  }
+
   return (
     <div className='feed'>
       <div className="feed__inputContainer">
         <div className="feed__input">
           <Avatar className='feed_avatar' src='https://github.com/Walber2903.png'/>
           <form className='form_input'>
-            <button type='submit'>Start a post</button>
+            <input type="text" placeholder='Start a post'/>
+            <button onClick={sendPost} type='submit'>Send</button>
           </form>
         </div> 
         <div className="feed_icons">
@@ -32,16 +39,20 @@ function Feed() {
           </div>
           <div className='article'>
             <EditNoteIcon />
-            <p>Write article</p>  
+            <p>Article</p>  
           </div>
         </div> 
       </div>  
 
       {/* Posts */}
+      {posts.map((post) => (
+        <Post />
+      ))}
+
       <Post 
         name='Walber Araujo' 
         description='Its a test' 
-        message='Starter first portfolio'
+        message='Starting the portfolio'
       />
 
     </div>
