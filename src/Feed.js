@@ -5,6 +5,7 @@ import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
 import SmartDisplayIcon from '@mui/icons-material/SmartDisplay';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import EditNoteIcon from '@mui/icons-material/EditNote';
+import Post from './Post';
 
 function Feed() {
   return (
@@ -37,6 +38,12 @@ function Feed() {
       </div>  
 
       {/* Posts */}
+      <Post 
+        name='Walber Araujo' 
+        description='Its a test' 
+        message='Starter first portfolio'
+      />
+
     </div>
   )
 }

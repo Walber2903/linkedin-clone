@@ -1,6 +1,6 @@
 .App {
   width: 60%;
-  max-widht: 900px;
+  max-widht: 56.25rem;
   justify-content: center;
   background-color: #f3f2ef;
   display: flex;
@@ -22,5 +22,5 @@
 .app__body {
   display: flex;
   width: 100%;
-  margin-top: 80px;
+  margin-top: 5rem;
 }

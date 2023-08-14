@@ -1,0 +1,20 @@
+.post {
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: .625rem;
+  border-radius: .625rem;
+}
+
+.post__header {
+  display: flex;
+  margin_bottom: .625rem;
+}
+
+.post__info {
+  margin-left: .625rem;
+}
+
+.post__info > p {
+  font_size: .75rem;
+  color: gray;
+}

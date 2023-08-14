@@ -1,23 +1,23 @@
 .feed {
   flex: 0.5;
-  margin: 0 20px;
+  margin: 0 1.25rem;
 }
 
 .feed__inputContainer {
   background-color: white;
   border-radius: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .feed__input {
   display: flex;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: .625rem;
+  padding-left: .625rem;
+  padding-right: .625rem;
 }
 
 .feed_avatar {
-  margin-right: 10px;
+  margin-right: .625rem;
   object-fit: cover;
 }
 
@@ -26,11 +26,11 @@
 }
 
 .form_input > button{
-  height: 30px; 
+  height: 1.875rem;
   border: 1px solid gray;
   border-radius: 30px;
   padding: 5px;
-  padding-left: 10px;
+  padding-left: .625rem;
   outline: none;
   height: 100%;
   background-color: white;
@@ -46,22 +46,20 @@
 .feed_icons {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: .625rem;
   align-items: center;
   height: 100%;
 }
 
 .photo > p, .video > p, .event > p, .article > p {
   color: gray;
-  margin-left: 4px;
+  margin-left: .25rem;
 }
 
 .photo {
   display: flex;
   color: blue;
-  padding-top: 10px;
-  padding-left:10px;
-  padding-bottom: 20px;
+  padding: .625rem .625rem 1.25rem .625rem;
   align-items: center;
 }
 
@@ -73,9 +71,7 @@
 .video {
   display: flex;
   color: green;
-  padding-top: 10px;
-  padding-left:10px;
-  padding-bottom: 20px;
+  padding: .625rem .625rem 1.25rem .625rem;
   align-items: center;
 }
 
@@ -87,9 +83,7 @@
 .event {
   display: flex;
   color: orange;
-  padding-top: 10px;
-  padding-left:10px;
-  padding-bottom: 20px;
+  padding: .625rem .625rem 1.25rem .625rem;
   align-items: center;
 }
 
@@ -101,10 +95,7 @@
 .article {
   display: flex;
   color: red;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-left:10px;
-  padding-bottom: 20px;
+  padding: .625rem .625rem 1.25rem .625rem;
   align-items: center;
 }
 

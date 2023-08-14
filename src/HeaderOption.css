@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 20px;
+  margin-right: 1.25rem;
   color: gray;
   cursor: pointer;
 }
@@ -16,12 +16,12 @@
 }
 
 .headerOption__title {
-  font-size: 12px;
+  font-size: .75rem;
   font-weight: 400;
 }
 
 .headerOption__icon {
   object-fit: contain;
-  height: 25px !important;
-  width: 25px !important;
+  height: 1.5rem !important;
+  width: 1.5rem !important;
 }
