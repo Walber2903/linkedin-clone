@@ -1,6 +1,6 @@
 .sidebar {
   position: sticky;
-  top: 5rem;
+  top: 5em;
   flex: 0.25;
   border-radius: 10px;
   text-align: center;
@@ -8,7 +8,7 @@
 }
 
 .sidebar__avatar {
-  margin-bottom: .625rem;
+  margin-bottom: .625em;
 }
 
 .sidebar__top {
@@ -17,35 +17,35 @@
   align-items: center;
   border: 1px solid lightgray;
   border-bottom: 0;
-  border-top-left-radius: .625rem;
-  border-top-right-radius: .625rem;
+  border-top-left-radius: .625em;
+  border-top-right-radius: .625em;
   background-color: white;
-  padding-bottom: .625rem;
+  padding-bottom: .625em;
 }
 
 .sidebar__top > img {
-  margin-bottom: -1.25rem;
+  margin-bottom: -1.25em;
   width: 100%;
-  height: 3.75rem;
+  height: 3.75em;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   object-fit: cover;
 }
 
 .sidebar__top > h2 {
-  font-size: 1rem;
+  font-size: 1em;
   font-weight: 600;
 }
 
 .sidebar__top > h4 {
   color: gray;
-  font-size: .75rem;
+  font-size: .75em;
   font-weight: 400;
 }
 
 .sidebar__stats {
-  padding: .75rem .25rem;
-  margin-bottom: .5rem;
+  padding: .75em .25em;
+  margin-bottom: .5em;
   border: 1px solid lightgray;
   background-color: white;
   border-bottom-left-radius: 8px;
@@ -54,16 +54,16 @@
 }
 
 .sidebar__stat {
-  margin-top: .625rem;
+  margin-top: .625em;
   display: flex;
   justify-content: space-between;
 }
 
 .sidebar__stat > p {
   color: gray;
-  font-size: .75rem;
+  font-size: .75em;
   font-weight: 600;
-  margin-left: .5rem;
+  margin-left: .5em;
 }
 
 .sidebar__statNumber {
@@ -73,25 +73,25 @@
 
 .sidebar__bottom {
   text-align: left;
-  padding: .625rem 0;
+  padding: .625em 0;
   border: 1px solid lightgray;
   background-color: white;
   border-radius: 8px;
-  margin-top: .5rem
+  margin-top: .5em
 }
 
 .sidebar__bottom > p {
-  padding-left: .625rem;
+  padding-left: .625em;
 }
 
 .sidebar__recentItem {
   display: flex;
-  font-size: .75rem;
+  font-size: .75em;
   color: gray;
   font-weight: bolder;
   cursor: pointer;
-  padding: .25rem 0;
-  padding-left: .625rem;
+  padding: .25em 0;
+  padding-left: .625em;
 }
 
 .sidebar__recentItem:hover {
@@ -100,6 +100,6 @@
 }
 
 .sidebar_hash {
-  margin-right: .625rem;
-  margin-left: .25rem;
+  margin-right: .625em;
+  margin-left: .25em;
 }

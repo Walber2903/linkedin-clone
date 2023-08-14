@@ -1,20 +1,37 @@
 .post {
   background-color: white;
-  padding: 1rem;
-  margin-bottom: .625rem;
-  border-radius: .625rem;
+  padding: 1em;
+  margin-bottom: .625em;
+  border-radius: .625em;
 }
 
 .post__header {
   display: flex;
-  margin_bottom: .625rem;
+  margin_bottom: .625em;
 }
 
 .post__info {
-  margin-left: .625rem;
+  margin-left: .625em;
 }
 
 .post__info > p {
-  font_size: .75rem;
+  font_size: .5em;
   color: gray;
+}
+
+.post__body {
+  overflow-wrap: anywhere;
+  margin-top: .75em;
+}
+
+.post__info > h2 {
+  font-size: 1em;
+}
+
+.post__buttons {
+  display: flex;
+  border-top: solid 1px whitesmoke;
+  margin-top: .75em;
+  padding-top: .25em;
+  justify-content: space-evenly;
 }

@@ -5,10 +5,11 @@
   display: flex;
   justify-content: space-evenly;
   border-bottom: 0.1px solid lightgray;
-  padding: .625rem 0;
+  padding: .625em 0;
   width: 100%;
   z-index: 999;
   background-color: white;
+  height: 3.75em;
 }
 
 .header__left {
@@ -17,16 +18,16 @@
 
 .header__left > img {
   object-fit: contain;
-  height: 2.5rem;
-  margin-right: .625rem;
+  height: 2.5em;
+  margin-right: .625em;
 }
 
 .header__search {
-  padding: .625rem;
+  padding: .625em;
   display: flex;
   align-items: center;
   border-radius: 5px;
-  height: 2.5rem;
+  height: 2.5em;
   color: gray;
   background-color: #eef3f8;
 }

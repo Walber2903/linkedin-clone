@@ -1,6 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
 .App {
   width: 60%;
-  max-widht: 56.25rem;
+  max-widht: 64em;
   justify-content: center;
   background-color: #f3f2ef;
   display: flex;
@@ -17,10 +24,11 @@
 
 .content-30 {
   flex: 6;
+  margin-top: 5em;
 }
 
 .app__body {
   display: flex;
   width: 100%;
-  margin-top: 5rem;
+  margin-top: 5em;
 }
